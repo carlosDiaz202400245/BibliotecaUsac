@@ -10,10 +10,10 @@ class LibroFisico(MaterialBibioteca):
     @property
     def num_ejemplar(self):
         return self._num_ejemplar
-    def ObtenerDiasDePrestamo(self):
+    def _obtenerDiasPrestamo(self):
         return 7
     def mostrarInfo(self):
-        info = super().mosttrarInfo()
+        info = super().mostrarInfo()
         info += f"Tipo: libro fisico \nEjemplar: {self._num_ejemplar} \n"
         info += f"dias de prestamo max: {self._obtenerDiasPrestamo()} \n"
         return info

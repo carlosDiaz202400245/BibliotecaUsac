@@ -55,12 +55,12 @@ class MaterialBibioteca:
     def _obtenerDiasPrestamo(self):
         raise   NotImplementedError("metodo implementado en las subclases")
 
-    def mosttrarInfo(self):
+    def mostrarInfo(self):
         info = f"Titulo: {self._titulo}\nAutor: {self._autor}\nCodigo: {self._codigo}"
         info += f"Estado: {self._estado_prestamo}\n"
         if self._fecha_prestamo == "No disponible":
             info += f"Fecha prestamo: {self._fecha_prestamo.strftime ('%Y-%m-%d %H:%M')}\n"
             info += f"dias restantes: {self.dias_restantes()}\n"
 
-            return info
+        return info
 

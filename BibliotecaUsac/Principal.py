@@ -37,7 +37,7 @@ def main():
         elif opcion == "3":
             print("\n-----Listado de Material------")
             for material in biblioteca.listarMaterial():
-                print(f"{material.codigo} - {material.titulo} ({type(material).__name__})")
+                print(f"{material._codigo} - {material._titulo} ({type(material).__name__})")
 
         elif opcion == "4":
             codigo = input("Ingrese el código del material a prestar: ")
@@ -58,7 +58,7 @@ def main():
             material = biblioteca.buscarMaterialPorCodigo(codigo)
             if material:
                 print("\n=== Información del Material ===")
-                print(material.mostrar_informacion())
+                print(material.mostrarInfo())
             else:
                 print("Material no encontrado")
 

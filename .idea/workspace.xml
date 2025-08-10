@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b8f3232-544c-43ba-9d02-ed2510f00fec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BibliotecaUsac/Biblioteca.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BibliotecaUsac/LibrioDigital.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BibliotecaUsac/LibroFisico.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BibliotecaUsac/MaterialBiblioteca.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BibliotecaUsac/Principal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BibliotecaUsac/LibrioDigital.py" beforeDir="false" afterPath="$PROJECT_DIR$/BibliotecaUsac/LibrioDigital.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BibliotecaUsac/LibroFisico.py" beforeDir="false" afterPath="$PROJECT_DIR$/BibliotecaUsac/LibroFisico.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BibliotecaUsac/MaterialBiblioteca.py" beforeDir="false" afterPath="$PROJECT_DIR$/BibliotecaUsac/MaterialBiblioteca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BibliotecaUsac/Principal.py" beforeDir="false" afterPath="$PROJECT_DIR$/BibliotecaUsac/Principal.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

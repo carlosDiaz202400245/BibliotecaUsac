@@ -10,11 +10,11 @@ class LibroDigital(MaterialBibioteca):
     def pesoMB(self):
         return self._pesoMB
 
-    def obtenerDiasPrestamo(self):
+    def _obtenerDiasPrestamo(self):
         return 3
 
     def mostrarInfo(self):
-        info = super().mosttrarInfo()
+        info = super().mostrarInfo()
         info += f"Tipo: Digital\nTamaño: {self._pesoMB} \n"
         info += f"Dias de prestamo max: {self.obtenerDiasPrestamo()}\n"
         return info
